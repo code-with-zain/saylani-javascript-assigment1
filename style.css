@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    margin: 0;
+}
+
+/*? 1. By Default Margin Bottom kyon hoti hai? */
+/* HTML me kuch elements jaise <p>, <h1> to <h6>, aur kuch aur tags ke liye browsers automatically default styling lagate hain. Iska purpose readability aur spacing ko ensure karna hota hai. */
+
+/* For example: */
+
+/* <p> tag ke liye by default margin-bottom 1rem hoti hai (ye browsers ka style hai, jaise Chrome, Firefox waghera). */
+/* Kin tags me hoti hai? Mostly text-related tags (like <p>, <h1>, <h2>, <ul>, <ol> etc.) default margins hoti hain. */
+/* Agar aap isko reset karna chahte hain, to CSS me margin ko override karte hain, jaise: */
+
+/*? styling Header */
+
+
+/*? Styling Main  */
+
+@media screen and (min-width:1400px){
+    .container, .container-lg, .container-md, .container-sm{
+        max-width: 1180px;
+    }
+}
